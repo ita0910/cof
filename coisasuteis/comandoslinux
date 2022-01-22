@@ -1,0 +1,31 @@
+pwd     mostra o caminho da pasta em que esta
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cd      para entrar em algum diretorio
+(
+cd ..   para voltar um diretorio
+)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ls      para visualizar as pastas de um diretorio
+(
+ls -r   para listar todos os arquivos 
+ls -a   para listar todos os arquivos ocultos
+ls -al  para listar todos os arquivos e diretórios com informações detalhadas como permissões, tamanho, proprietário, etc.
+)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cat     abre o arquivo selecionado
+(
+cat > filename                           cria um novo arquivo
+cat filename1 filename2>filename3        junta dois arquivos (1 e 2) e armazena a saída deles num novo arquivo (3)
+cat filename | tr a-z A-Z >filename.txt  para converter conteudo de um arquivo para usos de maiúscula ou minúscula
+)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mkdir filename           para criar um novo diretorio
+(
+mkdir filename/Newfile   para criar uma subpasta dentro de um diretorio
+)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+rm -r nomedodiretorio    para apagar um diretorio e tudo que estiver la dentro
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+touch filename           para criar um novo arquivo
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
