@@ -17,6 +17,5 @@ case '/': z = divisao(x,y); break;
 default: z = soma(x,y);
 }
 printf("Resultado = %d\n",z);
-system("pause");
 return 0;
 }
